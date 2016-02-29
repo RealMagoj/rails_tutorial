@@ -1,4 +1,6 @@
 LighthouseForum::Application.routes.draw do
+
+  get 'posts', to: 'posts#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +55,5 @@ LighthouseForum::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
 end
